@@ -1,31 +1,52 @@
+.intro-2 { 
+    background: url("http://pixel.nymag.com/imgs/daily/grub/2015/02/09/09-kfc-double-down.w710.h473.2x.jpg") no-repeat center;
+    /* background: url("https://qsrmedia.co.uk/sites/default/files/imagecache/600x360/news/kfc-festive-menu-mighty-bucket-e1510838209119.jpg")no-repeat center; */
+    background-size: cover;
+    background-position: center 10%;
+    background-position-x: center;
+    background-position-y: 10%;
+}
 .top-nav-collapse {
-    background-color: #78909c !important;
+    background-color: #c1110b !important;
 }
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background: #78909c !important;
+        background: #c1110b !important;
     }
 }
-h1 {
-    letter-spacing: 8px;
+.hm-gradient .full-bg-img {
+    background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
 }
-h5 {
-    letter-spacing: 3px;
+.card {
+    background-color: rgba(229, 228, 255, 0.2);
 }
-.hr-light {
-    border-top: 3px solid #fff;
-    width: 80px;
+
+ .md-form .prefix {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.md-form label {
+    color: #ffffff;
+}
+h6 {
+    line-height: 1.7;
 }
 @media (max-width: 740px) {
     .full-height,
     .full-height body,
     .full-height header,
     .full-height header .view {
-        height: 700px;
+        height: 1040px;
     }
 }
-
+/* ******************************************************************************* */
+/* ******************************************************************************* */
+/* ******************************************************************************* */
+/* ******************************************************************************* */
+/* ******************************************************************************* */
 /* ******************************************************************************* */
